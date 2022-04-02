@@ -9,3 +9,11 @@ Description: This project is my shell written in C utilizing the Unix process AP
 - Support input and output redirection
 - Support running commands in foreground and background processes
 - Implement custom handlers for 2 signals, SIGINT and SIGTSTP
+
+To compile this program do the following:
+- Put both Makefile and smallsh.c in a directory (dir)
+- cd dir
+- make
+
+If you would like to use the program, use:
+./smallsh
